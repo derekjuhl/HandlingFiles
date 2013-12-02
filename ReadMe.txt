@@ -1,0 +1,4 @@
+This program consists of three classes. Its purpose is to show the basics of writing and reading text files. 
+The class "WriteFiles" takes a path in the constructor and contains a method for writing lines to the file and for closing the file. The file is set to append. There is a destructor in the class to make sure the file is closed when the class goes out of scope.
+The second class "ReadFiles" reads the text file. Its constructor also takes a path. It contains a method that returns the contents of the file as a string. If the file cannot be opened it throws an error.
+The third class is the class that contains the Main method. It calls both classes, writes and reads from a file.
